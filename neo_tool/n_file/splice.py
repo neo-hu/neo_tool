@@ -10,7 +10,7 @@ import six.moves
 
 from neo_tool.singleton import singleton
 from neo_tool.libc import load_libc_function
-__all__ = ['tee', 'Splice']
+__all__ = ['Tee', 'Splice']
 
 c_loff_t = ctypes.c_long
 
